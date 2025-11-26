@@ -1,0 +1,10 @@
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.log
+
+# Ambiente e credenciais — NUNCA subir
+.env
+*.sql

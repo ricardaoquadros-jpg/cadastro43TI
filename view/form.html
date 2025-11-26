@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserir Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="background-3d">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+    </div>
+
+    <div class="container">
+        <h2>Inserir Contato</h2>
+
+        <form action="create.php" method="POST">
+            <div class="input-group">
+                <label>Nome</label>
+                <input type="text" name="nome" required placeholder="Digite seu nome">
+            </div>
+
+            <div class="input-group">
+                <label>Telefone</label>
+                <input type="text" name="telefone" required placeholder="(XX) XXXXX-XXXX">
+            </div>
+
+            <div class="input-group">
+                <label>Email</label>
+                <input type="email" name="email" required placeholder="seu@email.com">
+            </div>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
