@@ -100,23 +100,23 @@ flowchart LR
     A1 --> B3 --> B5 --> C1
     A1 --> B4 --> B5 --> C1
 ```
-
+```mermaid
 erDiagram
     CONTATOS {
-        int id PK
-        varchar nome
-        varchar telefone
-        varchar email
+        INT id PK
+        VARCHAR nome
+        VARCHAR telefone
+        VARCHAR email
     }
-
+```
+```mermaid
 sequenceDiagram
     autonumber
-
-    participant APP as 📱 Android
-    participant VOLLEY as 📡 Volley
-    participant API as 🖥 PHP API
-    participant DAO as 📘 DAO
-    participant DB as 🗄 MySQL
+    participant APP as Android
+    participant VOLLEY as Volley
+    participant API as PHP_API
+    participant DAO as DAO
+    participant DB as MySQL
 
     APP->>VOLLEY: Envia requisição
     VOLLEY->>API: GET / POST / PUT / DELETE
@@ -126,7 +126,7 @@ sequenceDiagram
     DAO-->>API: Processa retorno
     API-->>VOLLEY: JSON final
     VOLLEY-->>APP: Resposta entregue
-
+```
 ## 🧑‍💻 Autor
 
 **Ricardo Quadros**  
