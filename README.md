@@ -74,7 +74,7 @@ JSON esperado:
 │  └─ teste.php
 └─ README.md
 ```
-🧩 Arquitetura Geral
+## 🧩 Arquitetura do Sistema
 ```mermaid
 flowchart LR
 
