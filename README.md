@@ -52,7 +52,7 @@ JSON esperado:
   "email": "email@exemplo.com"
 }
 ```
-###🗑 DELETE – Remover contato
+### 🗑 DELETE – Remover contato
 
 /view/delete.php?id=1
 
