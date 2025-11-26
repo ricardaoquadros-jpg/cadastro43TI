@@ -56,36 +56,24 @@ JSON esperado:
 
 /view/delete.php?id=1
 
-📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
+```bash
 /cadastro43TI
-
 ├─ model/
-
 │  ├─ Contatos.class.php
-
 │  ├─ conexao.class.php
-
 ├─ controller/
-
 │  ├─ ContatosDAO.class.php
-
 ├─ view/
-
 │  ├─ read.php
-
 │  ├─ create.php
-
 │  ├─ update.php
-
 │  ├─ delete.php
-
 │  ├─ form.html
-
 │  └─ teste.php
-
 └─ README.md
-
+```
 🧩 Arquitetura Geral
 ```mermaid
 flowchart LR
