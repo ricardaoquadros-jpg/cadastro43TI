@@ -51,7 +51,7 @@ JSON esperado:
   "telefone": "999999",
   "email": "email@exemplo.com"
 }
-
+```
 ###🗑 DELETE – Remover contato
 
 /view/delete.php?id=1
